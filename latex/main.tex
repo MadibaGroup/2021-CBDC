@@ -171,19 +171,73 @@ Central banks want to choose what to see: they may prefer not be greedy with the
 		Payment Network	& \tikzcircle{2pt} &           &           &           &           \\ \hline
 		Bitcoin	&  \halfcirc[0.5ex]    &  \halfcirc[0.5ex]           &     \halfcirc[0.5ex]        &           &           \\ \hline
 		Zcash	&  &   \tikzcircle{2pt}        &    \tikzcircle{2pt}       &       &           \\ \hline
-		PRcash~\cite{WKCC18}		& \tikzcircle{2pt} &    \tikzcircle{2pt}         &   \tikzcircle{2pt}         &           &           \\ \hline
+		PRcash~\cite{WKCC18}		& \tikzcircle{2pt} &    ?         &   q      &           &           \\ \hline
 		Privacy-preserving KYC~\cite{BKT18} 	&  &         &      \tikzcircle{2pt}        &           &           \\ \hline
-		Tinn \etal ~\cite{TB21}		&\tikzcircle{2pt}  &          &   \halfcirc[0.5ex]          &           &           \\ \hline
-		Choi \etal	~\cite{CHLRS21}		& \tikzcircle{2pt} &      \tikzcircle{2pt}      &   \tikzcircle{2pt}         &           &           \\ \hline
-		Chaum \etal ~\cite{CGM21}		&\tikzcircle{2pt}  &    \tikzcircle{2pt}        &      \tikzcircle{2pt}      &           &           \\ \hline
-		Digital Dollar~\cite{USCBDC}		& \tikzcircle{2pt}  &    \tikzcircle{2pt}        &    \tikzcircle{2pt}        &           &           \\ \hline
-		Fedcoin~\cite{GR16}	& \tikzcircle{2pt} &      \tikzcircle{2pt}     &    \halfcirc[0.5ex]        &           &           \\ \hline
-		CAD-Coin~\cite{GR16}		&\tikzcircle{2pt}  &        \tikzcircle{2pt}    &   \tikzcircle{2pt}         &           &           \\ \hline
-		e-krona~\cite{KRONA} 	& &      \tikzcircle{2pt}        &         &           &           \\ \hline
+%		Tinn \etal ~\cite{TB21}		&\tikzcircle{2pt}  &          &   \halfcirc[0.5ex]          &           &           \\ \hline
+%		Choi \etal	~\cite{CHLRS21}		& \tikzcircle{2pt} &      \tikzcircle{2pt}      &   \tikzcircle{2pt}         &           &           \\ \hline
+%		Chaum \etal ~\cite{CGM21}		&\tikzcircle{2pt}  &    \tikzcircle{2pt}        &      \tikzcircle{2pt}      &           &           \\ \hline
+%		Digital Dollar~\cite{USCBDC}		& \tikzcircle{2pt}  &    \tikzcircle{2pt}        &    \tikzcircle{2pt}        &           &           \\ \hline
+%		Fedcoin~\cite{GR16}	& \tikzcircle{2pt} &      \tikzcircle{2pt}     &    \halfcirc[0.5ex]        &           &           \\ \hline
+%		CAD-Coin~\cite{GR16}		&\tikzcircle{2pt}  &        \tikzcircle{2pt}    &   \tikzcircle{2pt}         &           &           \\ \hline
+%		e-krona~\cite{KRONA} 	& &      \tikzcircle{2pt}        &         &           &           \\ \hline
 	\end{tabular}
 \end{table}
  
  \subsection{Stakeholders and conflicts}
+ \subsubsection{Law Enforcement}
+  Their main aim is to prevent crime related to payments. 
+  \paragraph{L $\rightarrow$ P}: Law enforcement would like to reach data in the case of an investigation and they do not want the privacy measures to prevent them from doing so.
+  
+  \begin{itemize}
+  	\item \textbf{-2:} L has no access to data. 
+  	\item \textbf{-1:} L can see certain parts of the data but not useful enough for their investigations.
+  	\item \textbf{0:} Neutral
+  	\item \textbf{1:} Even though L does not have full information about transactions, it can still use the data in meaning full way for its investigations.
+  	\item \textbf{2:} Privacy does not cause L any problems during investigation. The data may not be hidden and L can reach any time. Even when the data is hidden, L has the right to deanonymize it in order to use it for an investigation.
+  \end{itemize}
+  
+  
+ \subsubsection{Privacy Enthusiasts}
+ They are typical users, regulators or privacy advocates. They want to keep their personal data private and they want to avoid intrusive and unnecessary access to their data.
+ \paragraph{P $\rightarrow$ D:} Privacy enthusiasts oppose indirect collection and monetization of their personal information
+ 
+   \begin{itemize}
+ 	\item \textbf{-2:} D can collect and analyze every data, as data is public. 
+ 	\item \textbf{-1:} D can learn information to a certain extent. (\eg pseudo-anonymity)
+ 	\item \textbf{0:} Neutral
+ 	\item \textbf{1:} Certain types of data is hidden, which is enough to address P's concerns. This also does not prevent D from analyzing and collecting the data. 
+ 	\item \textbf{2:} D cannot collect any data.
+ \end{itemize}
+
+\paragraph{P $\rightarrow$ L:} Privacy enthusiasts support low crime rates but are concerned about law enforcement mistakes, corruptions and overreach.
+   \begin{itemize}
+	\item \textbf{-2:} L can collect any data.
+	\item \textbf{-1:} L has privileged access to data in the case of an investigation.
+	\item \textbf{0:} Neutral
+	\item \textbf{1:} L can access data based on a condition. For example, transactions over a certain threshold should be deanonymized and L can investigate them.
+	\item \textbf{2:} L has no access to data.
+\end{itemize}
+
+ \subsubsection{Data Holders} 
+ They are entities like commercial banks, payment processors and merchants. They want to gather, analyze and monetize the data.
+ \paragraph{D $\rightarrow$ L:}
+ Data holders have concerns about the cost of maintaining their database for the law enforcement. However, they can benefit from this process if they are financially compensated.
+   \begin{itemize}
+ 	\item \textbf{-2:}
+ 	\item \textbf{-1:}
+ 	\item \textbf{0:}
+ 	\item \textbf{1:}
+ 	\item \textbf{2:}
+ \end{itemize}
+  \paragraph{D $\rightarrow$ D:}
+ Different data holders have conflicting interests in terms of data collection. For instance, each bank would like to be the only entity who has access to their data.
+    \begin{itemize}
+ 	\item \textbf{-2:}
+ 	\item \textbf{-1:}
+ 	\item \textbf{0:}
+ 	\item \textbf{1:}
+ 	\item \textbf{2:}
+ \end{itemize}
  
  \subsection*{Notes}
   \paragraph{Cash:}  anonymous features of cash, not traceable by L or D.
