@@ -152,9 +152,9 @@ Central banks want to choose what to see: they may prefer not be greedy with the
 %		Choi \etal	~\cite{CHLRS21}		& \tikzcircle{2pt} &      \tikzcircle{2pt}      &   \tikzcircle{2pt}         &           &           \\ \hline
 	Chaum \etal ~\cite{CGM21}		&1  &   2     &    2     &     2      &     1 (?)      \\ \hline
 %		Digital Dollar~\cite{USCBDC}		& \tikzcircle{2pt}  &    \tikzcircle{2pt}        &    \tikzcircle{2pt}        &           &           \\ \hline
-		Fedcoin~\cite{GR16}	& \tikzcircle{2pt} &      \tikzcircle{2pt}     &    \halfcirc[0.5ex]        &           &           \\ \hline
+		Fedcoin~\cite{GR16}	& 1 &     2 (?)   &  1    &           &           \\ \hline
 %		CAD-Coin~\cite{GR16}		&\tikzcircle{2pt}  &        \tikzcircle{2pt}    &   \tikzcircle{2pt}         &           &           \\ \hline
-	e-krona~\cite{KRONA} 	& &      \tikzcircle{2pt}        &         &           &           \\ \hline
+	e-krona~\cite{KRONA} 	& &     2     &         &        -1   &           \\ \hline
 	\end{tabular}
 \end{table}
  
@@ -246,6 +246,11 @@ Central banks want to choose what to see: they may prefer not be greedy with the
 % ``With CAD-coin, the central bank again acts as the gateway to conversion from central bank money to CAD-coin, but privacy at conversion is not required.  The privacy requirements with CAD-coin instead relate to the needs of the non-central bank participants.  In CAD-coin, banks are still identified by a public address, but in order to complete payments requests generated from the real system, which are in terms of a bank’s legal name, a bank must know the complete list mapping of bank names to public addresses in the distributed ledger. Therefore, the only way to ensure privacy of the complete transaction record of a bank is to limit each individual bank’s access to the distributed ledger itself and to either (i) not involve all parties in transaction validation or (ii) find a way of validating the trades without seeing them, a so called “zero-knowledge validation”.~\cite{GR16}
  
  \paragraph{e-krona:} Since a permissioned ledger is used, we can assume access to data by D is controlled.
+ 
+ The solution is based on digital tokens (e-kronor) that are portable, cannot be forged or copied (double spent) and enable instantaneous, peer-to-peer payments as easily as sending a text. Similar to today’s cash, only the Riksbank will be able to issue and redeem e-kronor. The e-krona network is private and only the Riksbank can approve and add new participants to the
+ network
+ 
+ 
  \section{Discussion}
  \begin{itemize}
  	\item Are  P $\rightarrow$ L and  L $\rightarrow$ P mutually exclusive?
