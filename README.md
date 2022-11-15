@@ -14,6 +14,8 @@ Deliverables:
 
    
 
+   
+
 2. Research Article: "Mapping the Privacy Landscape for Central Bank Digital Currencies" by Raphael Auer (*Bank for International Settlement, BIS Innovation Hub*),  Rainer Böhme (*Universität Innsbruck*), Jeremy Clark (*Concordia Unviersity*) and Didem Demirag (*Concorida Unviersity*). ACM Queue* (July/Aug 2022); and *Communications of the ACM* (forthcoming, 2023).
 
    Link (Queue): https://queue.acm.org/detail.cfm?id=3561796
@@ -22,15 +24,21 @@ Deliverables:
 
    
 
+   
+
 3. Policy Whitepaper: "Mapping the Privacy Landscape for Central Bank Digital Currencies (Extended Version)" by Raphael Auer (*Bank for International Settlement, BIS Innovation Hub*),  Rainer Böhme (*Universität Innsbruck*), Jeremy Clark (*Concordia Unviersity*) and Didem Demirag (*Concorida Unviersity*). To appear in *BIS Working Papers* series.
 
-   Link: Forthcoming	
+   Link: Forthcoming
 
-   ​	
+   
+
+   
 
 4. Annotated Bibliography in Zotero:
 
    Link: https://www.zotero.org/groups/2482161/cbdc/library
+
+   
 
    
 
