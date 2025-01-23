@@ -26,9 +26,9 @@ Deliverables:
 
    
 
-3. Policy Whitepaper: "Mapping the Privacy Landscape for Central Bank Digital Currencies (Extended Version)" by Raphael Auer (*Bank for International Settlement, BIS Innovation Hub*),  Rainer Böhme (*Universität Innsbruck*), Jeremy Clark (*Concordia Unviersity*) and Didem Demirag (*Concorida Unviersity*). To appear in *BIS Working Papers* series.
+3. Policy Whitepaper: "Privacy-enhancing technologies for digital payments: mapping the landscape" by Raphael Auer (*Bank for International Settlement, BIS Innovation Hub*),  Rainer Böhme (*Universität Innsbruck*), Jeremy Clark (*Concordia Unviersity*) and Didem Demirag (*UQAM*). BIS Working Papers, No 1242, 23 January 2025.
 
-   Link: Forthcoming
+   Link: https://www.bis.org/publ/work1242.htm
 
    
 
